@@ -1,0 +1,13 @@
+# common.lib
+# Note that you do not start with #!/bin/bash
+
+############################ LIBRARIES ############################
+STD_MSG="About to rename some files"
+
+rename()
+{
+    FROM=$1
+    TO=$1
+
+    echo "This a function from another file with parameters ${FROM} and ${TO}. It currently does not do anything."
+}
